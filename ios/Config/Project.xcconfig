@@ -1,0 +1,4 @@
+APP_BUNDLE_ID = com.jevdemo.lianaiba
+APP_GROUP_IDENTIFIER = group.$(APP_BUNDLE_ID)
+DEVELOPMENT_TEAM =
+#include? "Local.xcconfig"

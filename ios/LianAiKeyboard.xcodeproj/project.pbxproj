@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+6C4228265F3DB53C161F8195 = {isa = PBXFileReference; lastKnownFileType = text; path = "Shared/Resources/pinyin_simp.dict.yaml"; sourceTree = "<group>";};
+6B8E80430C65AB7E6EF7EA5E = {isa = PBXBuildFile; fileRef = 6C4228265F3DB53C161F8195;};
+A1A58C93A9187A4C85B2AEB1 = {isa = PBXBuildFile; fileRef = 6C4228265F3DB53C161F8195;};
+99949DD84656720DC58017AE = {isa = PBXFileReference; lastKnownFileType = text; path = "Shared/Resources/Pinyin-LICENSE.txt"; sourceTree = "<group>";};
+B0002909DAB354EF17661023 = {isa = PBXBuildFile; fileRef = 99949DD84656720DC58017AE;};
+A7AA32DA9014925CFCDE8FC5 = {isa = PBXBuildFile; fileRef = 99949DD84656720DC58017AE;};
+6B08DBF6F86410C10AA76CCE = {isa = PBXFileReference; lastKnownFileType = text; path = "Shared/Resources/Pinyin-AUTHORS.txt"; sourceTree = "<group>";};
+736CD9A6BDE9C8543A903C2F = {isa = PBXBuildFile; fileRef = 6B08DBF6F86410C10AA76CCE;};
+2CA53C0CCD41835F53497B34 = {isa = PBXBuildFile; fileRef = 6B08DBF6F86410C10AA76CCE;};
+4090F139C14FE903AA74DDCA = {isa = PBXFileReference; lastKnownFileType = text; path = "Shared/Resources/Pinyin-NOTICE.txt"; sourceTree = "<group>";};
+44CD054C7AF7C4BA707194BD = {isa = PBXBuildFile; fileRef = 4090F139C14FE903AA74DDCA;};
+64C500D5FF3CCCE209D7D3BC = {isa = PBXBuildFile; fileRef = 4090F139C14FE903AA74DDCA;};
+
+/* Begin PBXBuildFile section */
+		043BE277C6E6376E5CFE8EAD /* Shared/AssistantModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2106FAC8098BC80A6CC113 /* Shared/AssistantModels.swift */; };
+		06DEA2A84FCC40D84CE343DE /* KeyboardExtension/KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13791D9A7964B710B92D9D99 /* KeyboardExtension/KeyboardViewController.swift */; };
+		0E6C932088C70CCFFC345B46 /* BroadcastExtension/SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA27249E8A64875BF939C4 /* BroadcastExtension/SampleHandler.swift */; };
+		0F315EDB73DF7A3284F0728D /* App/ConversationPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BBDAE3F4CA07EFC7FB947B /* App/ConversationPreview.swift */; };
+		25EA377EB78FAB5EF5BAC52C /* Shared/PinyinEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F410E3A823239EC12F0AFE /* Shared/PinyinEngine.swift */; };
+		391AB13FA5C8417270698FEE /* Shared/SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399B7D0B17BF2F627D0F784 /* Shared/SharedStore.swift */; };
+		409D6BFF873F4E86D0CFA0B3 /* LianAiBaKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 124DC7E167683BBFAFC91147 /* LianAiBaKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42CE77A4588B37FED0145097 /* App/LianAiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ED9955E48658E4D83B554F /* App/LianAiApp.swift */; };
+		57DD4275C5AF11A64F300CDE /* Shared/AssistantModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2106FAC8098BC80A6CC113 /* Shared/AssistantModels.swift */; };
+		6D99A9B2358291F9AD61D8C4 /* Shared/ChatScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF56E6B365C85BF07F045D3 /* Shared/ChatScene.swift */; };
+		6F2C491CD91B2FC9FD5F4BFB /* Shared/AssistantCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF68480267E7B9483362C1 /* Shared/AssistantCoordinator.swift */; };
+		784AD51FE94F6731115F9EE0 /* Shared/KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DAC2414342F34012B6E988 /* Shared/KeyboardModel.swift */; };
+		7F5D1621DE8F9C53313853FC /* Shared/SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399B7D0B17BF2F627D0F784 /* Shared/SharedStore.swift */; };
+		84ED28C0A09AECABAA4C4E6D /* Shared/KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DAC2414342F34012B6E988 /* Shared/KeyboardModel.swift */; };
+		94198E68400ECA29C207BF3C /* Shared/KeyboardSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E08B94B224845D17E1A807 /* Shared/KeyboardSurface.swift */; };
+		99E85C45FC881586EE9EE234 /* Shared/ChatScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF56E6B365C85BF07F045D3 /* Shared/ChatScene.swift */; };
+		9B7072C67028E5C186013D4F /* Shared/AssistantModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2106FAC8098BC80A6CC113 /* Shared/AssistantModels.swift */; };
+		9D3ACEDC09ABB3229BBCCB8F /* Shared/SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399B7D0B17BF2F627D0F784 /* Shared/SharedStore.swift */; };
+		AEF57BC3FCD171A55D39168A /* LianAiBaBroadcast.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 87FE0AC9D681DAE6BE90663B /* LianAiBaBroadcast.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B119E2D35932866D62D8986F /* App/SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF597AB7A6007817B28E8320 /* App/SetupView.swift */; };
+		BDD9CE0F555E1BC300F7613E /* Shared/PinyinEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F410E3A823239EC12F0AFE /* Shared/PinyinEngine.swift */; };
+		DD1071B0DE1B31B079BBC1F4 /* Shared/KeyboardSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E08B94B224845D17E1A807 /* Shared/KeyboardSurface.swift */; };
+		E41C270CB99C74BBE45632BE /* Shared/ChatScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF56E6B365C85BF07F045D3 /* Shared/ChatScene.swift */; };
+		ED5725476D6C89A0D487DA88 /* Shared/AssistantCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF68480267E7B9483362C1 /* Shared/AssistantCoordinator.swift */; };
+		EE5884A4FFB311C48B6EA931 /* BroadcastExtension/FrameRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F029908FE23512326C7849B7 /* BroadcastExtension/FrameRecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C66811FF449E700F86F480C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1038B578519C8C9AAE481DD3;
+			remoteInfo = LianAiBaBroadcast;
+		};
+		6BAB238646DD20CF4EE7005F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C0B8B4F960387DD94AEA13;
+			remoteInfo = LianAiBaKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC531F55156D1B4CD472E876 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				409D6BFF873F4E86D0CFA0B3 /* LianAiBaKeyboard.appex in Embed App Extensions */,
+				AEF57BC3FCD171A55D39168A /* LianAiBaBroadcast.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06ED9955E48658E4D83B554F /* App/LianAiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/LianAiApp.swift; sourceTree = "<group>"; };
+		124DC7E167683BBFAFC91147 /* LianAiBaKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; path = LianAiBaKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		13791D9A7964B710B92D9D99 /* KeyboardExtension/KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardExtension/KeyboardViewController.swift; sourceTree = "<group>"; };
+		16AF68480267E7B9483362C1 /* Shared/AssistantCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/AssistantCoordinator.swift; sourceTree = "<group>"; };
+		45E08B94B224845D17E1A807 /* Shared/KeyboardSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/KeyboardSurface.swift; sourceTree = "<group>"; };
+		4DF56E6B365C85BF07F045D3 /* Shared/ChatScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/ChatScene.swift; sourceTree = "<group>"; };
+		5399B7D0B17BF2F627D0F784 /* Shared/SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/SharedStore.swift; sourceTree = "<group>"; };
+		56EB973DB74F0E864CFB44B8 /* BroadcastExtension/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BroadcastExtension/Info.plist; sourceTree = "<group>"; };
+		624A8F936E0903B5DF7F6FC4 /* App/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = App/Info.plist; sourceTree = "<group>"; };
+		65F410E3A823239EC12F0AFE /* Shared/PinyinEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/PinyinEngine.swift; sourceTree = "<group>"; };
+		7A0489F2C3E25424C65E8798 /* Config/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/Project.xcconfig; sourceTree = "<group>"; };
+		87FE0AC9D681DAE6BE90663B /* LianAiBaBroadcast.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; path = LianAiBaBroadcast.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2106FAC8098BC80A6CC113 /* Shared/AssistantModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/AssistantModels.swift; sourceTree = "<group>"; };
+		92785FBCC300F219971FD3FB /* KeyboardExtension/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KeyboardExtension/Info.plist; sourceTree = "<group>"; };
+		9C88D5DB1D38A6C569FAAF08 /* LianAiBa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = LianAiBa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDA27249E8A64875BF939C4 /* BroadcastExtension/SampleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastExtension/SampleHandler.swift; sourceTree = "<group>"; };
+		AF597AB7A6007817B28E8320 /* App/SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/SetupView.swift; sourceTree = "<group>"; };
+		D5DAC2414342F34012B6E988 /* Shared/KeyboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/KeyboardModel.swift; sourceTree = "<group>"; };
+		E7BBDAE3F4CA07EFC7FB947B /* App/ConversationPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/ConversationPreview.swift; sourceTree = "<group>"; };
+		F029908FE23512326C7849B7 /* BroadcastExtension/FrameRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastExtension/FrameRecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61A8A655CE55A5A8E2FAE626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65783F834374DF5FFA42D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AF65518CB6D66D3643E2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (6C4228265F3DB53C161F8195, 99949DD84656720DC58017AE, 6B08DBF6F86410C10AA76CCE, 4090F139C14FE903AA74DDCA,
+				7A0489F2C3E25424C65E8798 /* Config/Project.xcconfig */,
+				E7BBDAE3F4CA07EFC7FB947B /* App/ConversationPreview.swift */,
+				06ED9955E48658E4D83B554F /* App/LianAiApp.swift */,
+				AF597AB7A6007817B28E8320 /* App/SetupView.swift */,
+				F029908FE23512326C7849B7 /* BroadcastExtension/FrameRecognizer.swift */,
+				9DDA27249E8A64875BF939C4 /* BroadcastExtension/SampleHandler.swift */,
+				13791D9A7964B710B92D9D99 /* KeyboardExtension/KeyboardViewController.swift */,
+				16AF68480267E7B9483362C1 /* Shared/AssistantCoordinator.swift */,
+				8A2106FAC8098BC80A6CC113 /* Shared/AssistantModels.swift */,
+				4DF56E6B365C85BF07F045D3 /* Shared/ChatScene.swift */,
+				D5DAC2414342F34012B6E988 /* Shared/KeyboardModel.swift */,
+				45E08B94B224845D17E1A807 /* Shared/KeyboardSurface.swift */,
+				65F410E3A823239EC12F0AFE /* Shared/PinyinEngine.swift */,
+				5399B7D0B17BF2F627D0F784 /* Shared/SharedStore.swift */,
+				624A8F936E0903B5DF7F6FC4 /* App/Info.plist */,
+				92785FBCC300F219971FD3FB /* KeyboardExtension/Info.plist */,
+				56EB973DB74F0E864CFB44B8 /* BroadcastExtension/Info.plist */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C88D5DB1D38A6C569FAAF08 /* LianAiBa.app */,
+				124DC7E167683BBFAFC91147 /* LianAiBaKeyboard.appex */,
+				87FE0AC9D681DAE6BE90663B /* LianAiBaBroadcast.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1038B578519C8C9AAE481DD3 /* LianAiBaBroadcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1348CDDDD436A666BB678F /* Build configuration list for PBXNativeTarget "LianAiBaBroadcast" */;
+			buildPhases = (
+				CDEF1E4062BC172354D1C96F /* Sources */,
+				61A8A655CE55A5A8E2FAE626 /* Frameworks */,
+				B9F096A2861DC810FEF84430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LianAiBaBroadcast;
+			productName = LianAiBaBroadcast;
+			productReference = 87FE0AC9D681DAE6BE90663B /* LianAiBaBroadcast.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2A51B90064F3307CD014F569 /* LianAiBa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFF77D20FF2944876855516 /* Build configuration list for PBXNativeTarget "LianAiBa" */;
+			buildPhases = (
+				FE28A5739E166A7228332359 /* Sources */,
+				A65783F834374DF5FFA42D02 /* Frameworks */,
+				1EE9C627921B04627DE04AE2 /* Resources */,
+				CC531F55156D1B4CD472E876 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				171CD0EB3849B4DD3ACC0FDE /* PBXTargetDependency */,
+				2D552E6F53F02C4E13816412 /* PBXTargetDependency */,
+			);
+			name = LianAiBa;
+			productName = LianAiBa;
+			productReference = 9C88D5DB1D38A6C569FAAF08 /* LianAiBa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94C0B8B4F960387DD94AEA13 /* LianAiBaKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069CDD55BF57A19503F79435 /* Build configuration list for PBXNativeTarget "LianAiBaKeyboard" */;
+			buildPhases = (
+				E2DD79EE33E376D6A89380D1 /* Sources */,
+				E8AF65518CB6D66D3643E2A1 /* Frameworks */,
+				BA930156862F8A91E7869409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LianAiBaKeyboard;
+			productName = LianAiBaKeyboard;
+			productReference = 124DC7E167683BBFAFC91147 /* LianAiBaKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600; TargetAttributes = {2A51B90064F3307CD014F569 = {SystemCapabilities = {com.apple.ApplicationGroups.iOS = {enabled = 1;};};}; 94C0B8B4F960387DD94AEA13 = {SystemCapabilities = {com.apple.ApplicationGroups.iOS = {enabled = 1;};};}; 1038B578519C8C9AAE481DD3 = {SystemCapabilities = {com.apple.ApplicationGroups.iOS = {enabled = 1;};};};};
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "LianAiKeyboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				zh_CN,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A51B90064F3307CD014F569 /* LianAiBa */,
+				94C0B8B4F960387DD94AEA13 /* LianAiBaKeyboard */,
+				1038B578519C8C9AAE481DD3 /* LianAiBaBroadcast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE9C627921B04627DE04AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			6B8E80430C65AB7E6EF7EA5E, B0002909DAB354EF17661023, 736CD9A6BDE9C8543A903C2F, 44CD054C7AF7C4BA707194BD,A1A58C93A9187A4C85B2AEB1, A7AA32DA9014925CFCDE8FC5, 2CA53C0CCD41835F53497B34, 64C500D5FF3CCCE209D7D3BC,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F096A2861DC810FEF84430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA930156862F8A91E7869409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDEF1E4062BC172354D1C96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7072C67028E5C186013D4F /* Shared/AssistantModels.swift in Sources */,
+				E41C270CB99C74BBE45632BE /* Shared/ChatScene.swift in Sources */,
+				391AB13FA5C8417270698FEE /* Shared/SharedStore.swift in Sources */,
+				EE5884A4FFB311C48B6EA931 /* BroadcastExtension/FrameRecognizer.swift in Sources */,
+				0E6C932088C70CCFFC345B46 /* BroadcastExtension/SampleHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2DD79EE33E376D6A89380D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5725476D6C89A0D487DA88 /* Shared/AssistantCoordinator.swift in Sources */,
+				043BE277C6E6376E5CFE8EAD /* Shared/AssistantModels.swift in Sources */,
+				6D99A9B2358291F9AD61D8C4 /* Shared/ChatScene.swift in Sources */,
+				784AD51FE94F6731115F9EE0 /* Shared/KeyboardModel.swift in Sources */,
+				94198E68400ECA29C207BF3C /* Shared/KeyboardSurface.swift in Sources */,
+				25EA377EB78FAB5EF5BAC52C /* Shared/PinyinEngine.swift in Sources */,
+				9D3ACEDC09ABB3229BBCCB8F /* Shared/SharedStore.swift in Sources */,
+				06DEA2A84FCC40D84CE343DE /* KeyboardExtension/KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE28A5739E166A7228332359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2C491CD91B2FC9FD5F4BFB /* Shared/AssistantCoordinator.swift in Sources */,
+				57DD4275C5AF11A64F300CDE /* Shared/AssistantModels.swift in Sources */,
+				99E85C45FC881586EE9EE234 /* Shared/ChatScene.swift in Sources */,
+				84ED28C0A09AECABAA4C4E6D /* Shared/KeyboardModel.swift in Sources */,
+				DD1071B0DE1B31B079BBC1F4 /* Shared/KeyboardSurface.swift in Sources */,
+				BDD9CE0F555E1BC300F7613E /* Shared/PinyinEngine.swift in Sources */,
+				7F5D1621DE8F9C53313853FC /* Shared/SharedStore.swift in Sources */,
+				0F315EDB73DF7A3284F0728D /* App/ConversationPreview.swift in Sources */,
+				42CE77A4588B37FED0145097 /* App/LianAiApp.swift in Sources */,
+				B119E2D35932866D62D8986F /* App/SetupView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		171CD0EB3849B4DD3ACC0FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C0B8B4F960387DD94AEA13 /* LianAiBaKeyboard */;
+			targetProxy = 6BAB238646DD20CF4EE7005F /* PBXContainerItemProxy */;
+		};
+		2D552E6F53F02C4E13816412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1038B578519C8C9AAE481DD3 /* LianAiBaBroadcast */;
+			targetProxy = 5C66811FF449E700F86F480C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034A73190C1CCE99D7CF3996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0489F2C3E25424C65E8798 /* Config/Project.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AKQFV8U96M;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KeyboardExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1C6332C759B35B5B3487F3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0489F2C3E25424C65E8798 /* Config/Project.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		31B2168AB46FE19F745C1BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0489F2C3E25424C65E8798 /* Config/Project.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AKQFV8U96M;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BroadcastExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).broadcast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		442F54864F52E5A03BFB4A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0489F2C3E25424C65E8798 /* Config/Project.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AKQFV8U96M;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KeyboardExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		46AC5328193B2CA9FC6762D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0489F2C3E25424C65E8798 /* Config/Project.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AKQFV8U96M;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8B7212A5EF49F64ACD4F072A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0489F2C3E25424C65E8798 /* Config/Project.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B188A3F9AA8C0CF3AD9C0154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0489F2C3E25424C65E8798 /* Config/Project.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AKQFV8U96M;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C246A576152BD921D3BFA075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0489F2C3E25424C65E8798 /* Config/Project.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AKQFV8U96M;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BroadcastExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).broadcast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069CDD55BF57A19503F79435 /* Build configuration list for PBXNativeTarget "LianAiBaKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034A73190C1CCE99D7CF3996 /* Debug */,
+				442F54864F52E5A03BFB4A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1348CDDDD436A666BB678F /* Build configuration list for PBXNativeTarget "LianAiBaBroadcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C246A576152BD921D3BFA075 /* Debug */,
+				31B2168AB46FE19F745C1BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "LianAiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6332C759B35B5B3487F3CD /* Debug */,
+				8B7212A5EF49F64ACD4F072A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFF77D20FF2944876855516 /* Build configuration list for PBXNativeTarget "LianAiBa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B188A3F9AA8C0CF3AD9C0154 /* Debug */,
+				46AC5328193B2CA9FC6762D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

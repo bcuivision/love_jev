@@ -1,0 +1,5 @@
+// Copy to Local.xcconfig and fill your paid Apple Developer Team ID.
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+// Pick identifiers registered to your own team if the defaults are unavailable.
+APP_BUNDLE_ID = com.yourteam.lianaiba
+APP_GROUP_IDENTIFIER = group.com.yourteam.lianaiba

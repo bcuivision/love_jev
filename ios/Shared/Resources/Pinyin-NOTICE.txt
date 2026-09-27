@@ -1,0 +1,13 @@
+Offline Pinyin dictionary
+
+Source: https://github.com/rime/rime-pinyin-simp
+Revision: 0c6861ef7420ee780270ca6d993d18d4101049d0
+Source blob: 6f2e996d2792416cb7f41bb49967a1dec7060c92
+File: pinyin_simp.dict.yaml (65,125 entries)
+Retrieved: 2026-09-27
+License: Apache License 2.0; see Pinyin-LICENSE.txt and Pinyin-AUTHORS.txt.
+
+The dictionary is derived from the Android open source project's Pinyin IME,
+as attributed in the original dictionary header. Dictionary entries are
+unchanged; trailing blank lines were normalized when vendoring the file.
+The Swift decoder is part of JEV, not the Rime engine or Apple's Pinyin engine.
